@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: rgb(192, 191, 191);
 }
 
 .container {
@@ -43,7 +43,7 @@ button {
     display: block;
     width: 100%;
     padding: 10px;
-    background: #5cb85c;
+    background:tomato;
     color: white;
     border: none;
     border-radius: 4px;
@@ -52,7 +52,7 @@ button {
 }
 
 button:hover {
-    background: #4cae4c;
+    background: rgb(158, 24, 1);
 }
 
 #questionContainer {
@@ -79,4 +79,7 @@ button:hover {
 .answered-question .datetime {
     font-size: 0.8em;
     color: #666;
+}
+h1{
+    text-align: center;
 }
